@@ -1,59 +1,68 @@
-# InventarioApp
+# 📦 Inventory System - Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
+This Angular application serves as the user interface for managing inventory products. It connects to a Spring Boot RESTful API to perform CRUD operations on product data.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Features
 
-```bash
+- View inventory list
+- Add new products
+- Edit product details
+- Delete items
+- Responsive design with Bootstrap
+
+---
+
+## 🛠️ Tech Stack
+
+- Angular 17
+- TypeScript
+- RxJS
+- Bootstrap 5
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+**bash**
+
+git clone https://github.com/GabrielCharlesDev/inventory-system-frontend.git
+
+cd inventory-system-frontend
+
+### 2. Install dependencies
+
+npm install
+
+### 3. Run the app
+
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+The app will be available at:
 
-## Code scaffolding
+📍 http://localhost:4200/
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Make sure the backend is running at http://localhost:8080/.
 
-```bash
-ng generate component component-name
-```
+🔗 Related Backend
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+This project works with the following backend:
 
-```bash
-ng generate --help
-```
+👉 Inventory System - Backend  https://github.com/GabrielCharlesDev/inventory-system-backend
 
-## Building
+👤 Author
 
-To build the project run:
+Gabriel Charles
 
-```bash
-ng build
-```
+🎯 Junior Fullstack Developer
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+🔗 LinkedIn https://www.linkedin.com/in/gabrielcharlesdev/
 
-## Running unit tests
+🔗 GitHub https://github.com/GabrielCharlesDev/
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+🧪 Project Status
+✅ Completed base features
+💡 Future improvements: authentication, search filters, dark mode
